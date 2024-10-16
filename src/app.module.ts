@@ -7,7 +7,7 @@ import { UserModule } from './user/user.module';
   imports: [
     UserModule,
     TypeOrmModule.forRoot({
-      type: 'mariadb',
+      type: 'mysql',
       host: 'mysql.railway.internal',
       port: 3306,
       username: 'root',
